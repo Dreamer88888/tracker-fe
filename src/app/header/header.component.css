@@ -1,0 +1,16 @@
+.navbar-container {
+    background-color: #0265B2;
+    font-family: "Poppins";
+    width: calc(100vw - 240px);
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+i {
+    color: white;
+}

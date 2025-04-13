@@ -1,0 +1,4 @@
+.container-scroller {
+    overflow: hidden;
+    display: flex !important;
+}

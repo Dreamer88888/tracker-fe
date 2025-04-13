@@ -1,0 +1,11 @@
+.page-body-wrapper {
+    min-height: 100vh;
+    padding-left: 0;
+    padding-right: 0;
+    width: calc(100% - 240px);
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+}

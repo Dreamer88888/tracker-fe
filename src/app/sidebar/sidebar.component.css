@@ -1,0 +1,115 @@
+.sidebar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.sidebar {
+    min-height: 100vh;
+    background: #0265B2;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 600;
+    padding: 0;
+    z-index: 11;
+    width: 240px;
+}
+
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.sidebar .nav:not(.sub-menu) {
+    margin-top: 1.3rem;
+}
+
+.sidebar .nav {
+    overflow: hidden;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    /* margin-bottom: 60px; */
+}
+
+.nav {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+ul {
+    font-size: 0.875rem;
+}
+
+.sidebar .nav .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0.76rem 2.125rem;
+    color: #ffffff;
+    transition-duration: 0.45s;
+}
+
+.sidebar .nav .sidebar-category {
+    margin: 1.2rem 2.125rem 0.4rem 2.125rem;
+}
+
+i {
+    margin-right: 18px;
+}
+
+.sidebar .nav .nav-item .nav-link .menu-title {
+    display: inline-block;
+    font-size: 0.937rem;
+    line-height: 1;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.sidebar .nav:not(.sub-menu) > .nav-item:hover > .nav-link {
+    background: #183188;
+    color: #ffffff;
+}
+
+.nav-link:focus-visible {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.collapse:not(.show) {
+    display: none;
+}
+
+.sidebar .nav.sub-menu {
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style: none;
+    padding: 0.25rem 0 0.875rem 2.5rem;
+}
+
+.sidebar .nav.sub-menu .nav-item {
+    padding-right: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar .nav.sub-menu .nav-item .nav-link {
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    position: relative;
+    font-size: 0.8rem;
+    line-height: 1;
+    height: auto;
+    border-top: 0;
+}
+
+/* .sidebar .nav.sub-menu */
+
+ul li {
+    line-height: 1.8;
+}

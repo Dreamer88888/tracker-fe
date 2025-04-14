@@ -8,6 +8,9 @@ import { LoginComponent } from './login/login.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { HeaderComponent } from './header/header.component';
 import { PageWrapperComponent } from './page-wrapper/page-wrapper.component';
+import { ContainerScrollerComponent } from './container-scroller/container-scroller.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { UserListComponent } from './user-list/user-list.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { PageWrapperComponent } from './page-wrapper/page-wrapper.component';
     LoginComponent,
     SidebarComponent,
     HeaderComponent,
-    PageWrapperComponent
+    PageWrapperComponent,
+    ContainerScrollerComponent,
+    DashboardComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,5 @@
 .navbar-container {
-    background-color: #0265B2;
+    background-color: #ffffff;
     font-family: "Poppins";
     width: calc(100vw - 240px);
 }
@@ -9,8 +9,4 @@
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-}
-
-i {
-    color: white;
 }
